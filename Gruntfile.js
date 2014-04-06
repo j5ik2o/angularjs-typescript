@@ -273,4 +273,5 @@ module.exports = function (grunt) {
 		['clean:clientScript', 'ts', 'tslint', 'open:test-browser']);
 
 	require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
+
 };
