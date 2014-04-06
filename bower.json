@@ -1,42 +1,45 @@
 {
-	"name": "angularjs-with-typescirpt",
-	"version": "0.0.0",
-	"dependencies": {
-		"es5-shim": "2.3.0",
-		"jquery": "2.1.0",
-		"angular": "1.2.16",
-		"angular-route": "1.2.16"
-	},
-	"devDependencies": {
-		"mocha": "1.18.2",
-		"expectations": "0.2.5",
-		"angular-mocks": "1.2.16"
-	},
-	"exportsOverride": {
-		"es5-shim": {
-			"main-js": "**/es5-shim.js"
-		},
-		"jquery": {
-			"main-js": "dist/jquery.js"
-		},
-		"angular": {
-			"main-js": "**/angular.js",
-			"main-css": "**/*.css"
-		},
-		"angular-route": {
-			"main-js": "**/angular-route.js",
-			"main-css": "**/*.css"
-		},
-
-		"mocha": {
-			"test-js": "*.js",
-			"test-css": "*.css"
-		},
-		"expectations": {
-			"test-js": "expectations.js"
-		},
-		"angular-mocks": {
-			"test-js": "**/*.js"
-		}
-	}
+  "name": "angularjs-with-typescirpt",
+  "version": "0.0.0",
+  "dependencies": {
+    "es5-shim": "2.3.0",
+    "jquery": "2.1.0",
+    "angular": "1.2.16",
+    "angular-route": "1.2.16",
+    "angular-ui-bootstrap-bower": "~0.10.0"
+  },
+  "devDependencies": {
+    "mocha": "1.18.2",
+    "expectations": "0.2.5",
+    "angular-mocks": "1.2.16"
+  },
+  "exportsOverride": {
+    "angular-ui-bootstrap-bower": {
+      "main-js": "**/*.js"
+    },
+    "es5-shim": {
+      "main-js": "**/es5-shim.js"
+    },
+    "jquery": {
+      "main-js": "dist/jquery.js"
+    },
+    "angular": {
+      "main-js": "**/angular.js",
+      "main-css": "**/*.css"
+    },
+    "angular-route": {
+      "main-js": "**/angular-route.js",
+      "main-css": "**/*.css"
+    },
+    "mocha": {
+      "test-js": "*.js",
+      "test-css": "*.css"
+    },
+    "expectations": {
+      "test-js": "expectations.js"
+    },
+    "angular-mocks": {
+      "test-js": "**/*.js"
+    }
+  }
 }

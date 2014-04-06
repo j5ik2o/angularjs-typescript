@@ -266,6 +266,7 @@ module.exports = function (grunt) {
 		'test',
 		"必要なコンパイルを行いkarma(旧testacular)でテストを実行する。",
 		['clean:clientScript', 'ts:clientTest', 'tslint', 'karma']);
+
 	grunt.registerTask(
 		'test-browser',
 		"必要なコンパイルを行いブラウザ上でテストを実行する。",

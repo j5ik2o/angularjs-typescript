@@ -17,7 +17,7 @@ module App {
 	// モジュールの定義
 	angular.module(
 		appName,
-		["ngRoute", appName + ".controller", appName + ".service", appName + ".filter", appName + ".directive"],
+		["ngRoute", "ui.bootstrap", appName + ".controller", appName + ".service", appName + ".filter", appName + ".directive"],
 		($routeProvider:ng.route.IRouteProvider, $locationProvider:ng.ILocationProvider)=> {
 			$routeProvider
 				.when("/sample", {
