@@ -10,9 +10,9 @@ bower-task/
 src/main/typescript/libs/
 tscommand.tmp.txt
 
-src/main/typescript/*.js
-src/main/typescript/*.js.map
-src/main/typescript/*.d.ts
+src/main/typescript/**/*.js
+src/main/typescript/**/*.js.map
+src/main/typescript/**/*.d.ts
 src/main/typescript/libs/
 
 src/test/typescript/*.js
